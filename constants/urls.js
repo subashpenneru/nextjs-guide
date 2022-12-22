@@ -1,0 +1,1 @@
+export const mongoURI = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_pwd}@${process.env.mongodb_cluster}.rlmmg.mongodb.net/${process.env.mongodb_db}?retryWrites=true&w=majority`;
